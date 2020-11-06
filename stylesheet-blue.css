@@ -1,0 +1,107 @@
+body {
+	background-image: url("images/blue.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	}
+div.header { /* Page Header */
+	opacity: 0.8;
+	border: 0px solid white;
+	margin: 5% 10%;
+	border-radius: 0px;
+	padding: 8px;
+	background-color: dimgray;
+	}
+div.footer { /* Footer */
+	opacity: 0.8;
+	border: 0px solid white;
+	margin: 5% 10%;
+	border-radius: 0px;
+	padding: 8px;
+	background-color: dimgray;
+	}
+div.contentbox { /* Page Content */
+	opacity: 0.8;
+	border: 0px solid white;
+	margin: 5% 10%;
+	border-radius: 0px;
+	padding: 8px 16px;
+	background-color: dimgray;
+	}
+ul { /* Menu */
+	opacity: 0.8;
+	border: 0px solid white;	
+	list-style-type: none;
+	margin: 5% 10%;
+	border-radius: 0px;
+	padding: 8px;
+	overflow: hidden;
+	background-color: dimgray;
+	}
+li { /* Menu Items */
+	float: left;
+	}
+li a { /* Menu Links */
+	border: 0px solid black;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	border-radius: 0px;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: clamp(14px, 1.5vw, 18px);
+	text-decoration: none;
+	}
+.container { /* Container for ThingLink iframe */
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%;
+	}
+.resp-iframe { /* ThingLink iframe */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	}
+li a.activemenu { /* Current Page Menu Indicator */
+	border: 0px solid white;
+	color: dodgerblue;
+	}
+li a.inactivemenu { /* Inactive Page Menu Indicator */
+	border: 0px solid black;
+	color: white;
+	}
+li a.inactivemenu-r { /* Inactive Page Menu Indicator */
+	border: 0px solid black;
+	color: white;
+	float: right;
+	}
+li a:hover { /* Menu Hover Animations */
+	border: 0px solid white;
+	color: cyan;
+	transition-duration: 0.4s;
+	background-color: gray;
+	}
+h1 { /* Page Header */
+	text-align: center;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: clamp(32px, 6vw, 84px);
+	color: white;
+	}
+h2 { /* Content */
+	text-align: justify;
+	text-indent: 32px;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: clamp(14px, 1.5vw, 18px);
+	color: white;
+	}
+h3 { /* Footer */
+	text-align: center;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: clamp(12px, 1.3vw, 14px);
+	color: white;
+	}
