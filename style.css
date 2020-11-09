@@ -1,0 +1,13 @@
+#link1, #link2, #link3, #link4 {
+	margin: 5px;
+	padding: 0px;
+	opacity: 1;
+	min-width: 100px;
+	max-width: 300px;
+	border-radius: 100px;
+	box-shadow: 4px 2px 2px 2px rgba(0,0,0,0.2);
+	transition: opacity 1s ease-in-out;
+}
+#link1:hover, #link2:hover, #link3:hover, #link4:hover {
+	opacity: 0.8;
+}
