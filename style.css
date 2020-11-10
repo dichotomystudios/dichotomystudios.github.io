@@ -1,13 +1,15 @@
 #link1, #link2, #link3, #link4 {
-	margin: 5px;
+	display: block; /* Force the normally inline img element to be a block element */
+	margin: 0 auto;
 	padding: 0px;
-	opacity: 1;
+	opacity: 1; /* Full opacity */
 	min-width: 100px;
 	max-width: 300px;
+	height: auto;
 	border-radius: 100px;
 	box-shadow: 4px 2px 2px 2px rgba(0,0,0,0.2);
-	transition: opacity 1s ease-in-out;
+	transition: opacity 1.5s ease-in-out;
 }
 #link1:hover, #link2:hover, #link3:hover, #link4:hover {
-	opacity: 0.8;
+	opacity: 0.75;
 }
